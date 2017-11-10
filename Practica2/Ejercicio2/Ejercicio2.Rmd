@@ -1,0 +1,31 @@
+---
+title: "Ejercicio 2"
+author: "Jesus Condor Torres"
+date: "10 de noviembre de 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Vectorizacion
+Nos permite volver un vector a ciertos elementos con la condicion de que dichos elementos tienen que ser de una misma clase atomica, una forma mas simple seria decir que lo convierte a vector concatenando dichas variables sea unica o conjunta.
+
+```{r vectorization}
+#vectorizacion de enteros
+vectorizacion <- c(4,5,7,seq(8,20))
+vectorizacion
+```
+
+##Reciclaje
+Esto ayuda cuando los parametros de cierto vector no es multiplo del primer vector,eso conlleva a que cuando se efectue una operacion se fuerce de manera que el resultado exista.
+
+```{r recycling}
+ #Reciclaje al sumar
+ a <- c(1,4,7,9,5,4,6) + 1:4
+ a
+ b <- c(2,7,8,9,5) - c(5,2)
+ b
+ #Fuerza el resultado
+``` 

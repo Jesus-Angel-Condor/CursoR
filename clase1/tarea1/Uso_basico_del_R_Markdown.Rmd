@@ -1,0 +1,163 @@
+---
+title: "Introduccion al R Markdown"
+author: "Jesus Condor"
+date: "28 de octubre de 2017"
+output: html_document
+---
+
+En esta ocasion trataremos acerca de las operaciones basicas del **R Mardown**, algunas formas de como _programarlo_ para obtener un documento ya sea en formato **HTML**, **pdf** o **word**.Esta introduccion contara con 8 secciones para lo cual trataremos en cada seccion un tema determinado.
+
+##Primera Seccion
+###Negrita y cursiva
+
+* Escribir en Mardown _no_ es tan dificil!
+* **Completare** estas lecciones.
+* _Por supuesto_, susurro. Entonces, ella grito: "Todo lo que necesito **es un poco molesto**"
+* Si piensas para ti mismo, **_esto es increible_**, probablemente tengas razon.
+
+##Segunda Seccion
+###Encabezados
+
+En esta parte estaremos representando los tamaños de los encabezados, no confundir con el **titulo de la Segunda Seccion**
+
+#Encabezado Uno
+###Encabezado tres
+####Simbolismo colombiano en _Cien años de soledad_
+Aqui hay algunas palabras sobre el libro **_Cien años de soledad_**.
+
+##Tercera Seccion 
+###Citar paginas web atraves de un enlace
+
+En esta parte aprenderemos el metodo de citar una pagina web atraves de una _link_ o _enlace_.
+
+* Todo este tutorial se encuentra [aqui](http://markdowntutorial.com).
+* Otro ejemplo [visit Github!](http://github.com).
+* [**Realmente**](http://dailykitten.com) vas a querer ver esto.
+* Las ultimas noticias de [la BBC](http://bbc.com/news).
+
+#Enlace de referencia
+
+* Aqui hay [un enlace a otra cosa] [otro lugar].
+* Aqui hay [otro enlace] [otro-enlace].
+* Y ahora volviendo a [el primer enlace] [otro lugar].
+
+[otro lugar]: www.github.com
+[otro-enlace]: www.google.com
+
+* Quieres [ver algo divertido] [Tendras que terminarlo!]
+* Bueno,tengo [el sitio web para ti] [otro lugar divertido]
+
+[Tendras que terminarlo!]: www.zombo.com
+[otro lugar divertido]: www.stumbleupon.com
+
+##Cuarta Seccion
+###Imagenes
+
+* ![Una representacion de Octdrey Catburn](https://octodex.github.com/images/bannekat.png)
+* ![El primer padre] [Primer padre]
+* ![El segundo primer padre] [Segundo padre]
+
+[Primer padre]: http://octodex.github.com/images/founding-father.jpg
+[Segundo padre]: http://octodex.github.com/images/foundingfather_v2.png
+
+##Quinta Seccion
+###Blockquotes
+
+En esta parte veremos una forma de citar una frase u oracion de cierta fuente y convertirlo en un tipo de parrafo especial formateado para que sea llamativo al lector.En el cuadro a continuacion, convierta la cita del libro en una cita en bloque:
+
+Lei esta cita interesante el otro dia:
+
+> "Sus ojos lo habian llamado y su alma habia saltado a la llama del Vivir, errar, caer, triunfar, recrear vida a partir de !vida!"
+
+Siguiente ejemplo:
+
+> Erase una vez y fue un buen momento, fue una mofeta bajando a lo largo de la carretera y esta mofeta que trabajando por el camino se encontro con un niñito de nicnes llamado bebe Tuckoo...
+>
+> Su padre le conto esa historia: su padre lo miro a traves de un vaso: tenia una cara peluda.
+>
+> El era bebe Tuckoo. La mofeta bajo por el camino donde Betty Byrne vivio: ella vendio lemon platt.
+
+Siguiente ejemplo de un texto como blockquote en cursiva:
+
+> _La dejo rapidamente, temiendo que su intimidad se convirtiera en una disputa y deseando estar fuera del camino antes de ofrecerle sus mercancias a otra persona, un turista de Inglaterra o un estudiante de Trinity. Grafton Street, por donde caminaba, prolongo ese momento de pobreza desanimada. En la carretera de la entrada de la calle se puso en una losa en el recuerdo de Wolfe Tone y el recordo haber estado presente con su padre en el momento de la colocacion. Recordaba con amargura aquella escena de hortera tributo. Habia cuatro delegados franceses en un freno y uno, un joven sonriente y regordete, sostenido, acuñado en un palo, una tarjeta en la que estaban impresas las palabras: ¡VIVE L'IRLANDE!_.
+
+##Sexta seccion
+###Liza
+
+En esta ocasion veremos como crear listas tanto ordenadas como desordenadas.
+
+Primer ejemplo (lista desordenada):
+
+* Harina.
+* Queso.
+* Tomates.
+
+Segundo ejemplo (lista ordenada):
+
+1. Cortar el queso.
+2. Cortar los tomates.
+3. Frotar los tomates en la harina.
+
+Tercer ejemplo:
+
+* Azalea(_Ericaee Rhododendron_).
+* Crisantemo(_Anthemideae Crisantemo_).
+* Dahlia(_Coreopsideae Dahlia_).
+
+Cuarto ejemplo:
+
+* Calculo
+ * Un profesor
+ * No tiene pelo
+ * A menudo viste de verde
+* Catastrofe
+ * Un cantante de opera
+ * Tiene  el caballo blanco
+   * Es mentalmente enfermo
+
+Quinto ejemplo:
+
+1. Cortar el queso
+
+ Asegurese de que el queso este cortado en pequeños triangulos.
+ 
+2. Cortar los tomates
+ 
+ Tengo cuidado al sostener el cuchillo.
+ 
+ Para obtener mas ayuda sobre rebanadas de tomate
+ > Consulte el ensayo seminal de **Thomas Jefferson**
+ * Tom Ate Those
+ 
+##Septima seccion
+###Parrafos
+
+En esta parte vamos a diseñar distintos formas de **parrafos**
+
+Ejemplo 1:
+
+Nos imaginamos a las mansas criaturas apacibles
+
+donde habitaron en su pluma de paja,
+
+tampoco se le ocurrio a uno de nosotros alli
+
+para dudar, estabamos arrodillados entonces.
+
+Ejemplo 2:
+
+1. Rompe tres huevos en un tazon.
+
+Ahora, vas a querer romper los huevos de tal manera que no haces un desastre
+
+Si _do_ hacer un lio, use una toalla para limpiarlo!
+
+2. Vierta un galon de leche en el recipiente
+
+Basicamente, sigue las mismas indicaciones que arriba:
+
+>  no seas desordenado, pero si lo estas, limpialo!
+
+                    
+                    
+###Fin

@@ -1,0 +1,78 @@
+---
+title: "Uso de Lineas de comandos"
+author: "Jesus Condor"
+date: "27 de octubre de 2017"
+output: html_document
+---
+
+En esta tarea mencionaremos los comandos leidos [aqui](http://generalassembly.github.io).
+
+##Primera parte
+###Cual es la linea de comando
+
+Es una forma de interactuar con la computadora sin tener que usar necesariamente el mouse, esta forma de utilizacion es denominado interfaz grafica de usuario o GUI. Para acceder a la linea de comando usamos el terminal, aplicacion comun de **MacOSX** y **Linux**. 
+
+Cuando el terminal esta abierto podremos observar las siguientes caracteristicas:
+
+> Aparece el simbolo "$" que significa stand-by.
+
+> El nombre de usuario.
+
+##Segunda parte
+###Orientacion
+
+En esta parte trataremos sobre los conceptos de directorios y como es posible ubicarlos. En GUI de finder encontraremos carpetas y archivos como iconos en una lista,esas carpetas se llaman **directorios**.
+Los directorios se caracterizan por:
+
+> Un directorio debajo de otro directorio se llama _subdirectorio_.
+
+> Un directorio sobre otro subdirectorio se llama _directorio principal_.
+
+> El directorio superior de cualquier archivo se llama _directorio raiz_.
+
+Por lo visto anteriormente la computadora entiende 2 tipos de rutas, **absoluta** y **relativa**. 
+
+> La ruta absoluta empieza desde la raiz.
+
+> La ruta relativa puede estar empezar desde cualquier punto de ruta.
+
+El directorio en que se encuentre actualmente es llamado **directorio de trabajo**.
+
+##Tercera parte
+###Navegando sistemas de archivos
+
+Entre los comandos mas conocidos a usar tenos las siguientes:
+
+> pwd: _print work directory_ da conocer la ruta del directorio de trabajo.
+
+> ls: a**l**i**s**t muestra el contenido de su directorio de trabajo.
+
+> ~/Documents: Llamado argumento, puede ir acompañado de ls para especificar el contenido del directorio que uno desea.
+
+> -l: Muestra la lista del directorio incluido el tamaño,propietario, fecha, hora de modificacion y el nombre.
+
+> clear: Borra el **scrollback**.
+
+> ls -a: muestra los archivos de los directorios.
+
+> cd: Cambio de directorio.
+
+##Cuarta parte
+###Manipulacion de archivos
+
+En esta parte veremos los comandos que manipulan los archivos, los vemos a continuacion:
+
+> mkdir: Tiene dos funciones
+
+* Nombrar un nuevo directorio.
+* Ver la ruta de ese directorio.
+
+> rm: Elimina archivos que ya no desemaos tener.
+
+> -r: Borra el directorio, una advertencia con los comandos de eliminacion, **_eliminar archivos desde linea de comando no es lo mismo que llevar el archivo a la papelera , asi que tenga cuidado al eliminar el archivo por comando_**.
+
+> i: Este comando sirve para que tengas la seguridad de que eliminas archivos que ya no deseas tener.
+
+> mv: Mueve un archivo de un directorio a otro.
+
+Tenemos que tener en cuenta que la ventana de GUI no ilustra perfectamente lo que esta sucediendo en la linea de comando, esto se debe a que estamos trabajando en otro directorio con distinta ruta del que nos encontramos, asi que no hay que confiarse del todo de esta ventana GUI.

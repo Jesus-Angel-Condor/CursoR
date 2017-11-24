@@ -1,0 +1,31 @@
+---
+title: "Pregunta 2"
+author: "Jesus Condor Torres"
+date: "24 de noviembre de 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Aqui muestro las respuestas que se encuentran en el ejercicio.
+
+####Item a
+Solo corregimos las dos primeras lineas del codigo donde el rango del primer punto va desde -1 a 4, sim embargo va de 0 a 4. 
+
+En el segundo punto se le debe aumentar la coma para que reconozca las columnas, mientras que en el tercer punto no hubo cambio ya que no mostraba errores.
+
+####Item b
+Porque el vector es de longitud 5, sin embargo al no tener el indice un valor 
+el programa trata de buscar un valor real en el vector pero como no lo encuentra 
+simplemente sale por pantalla "NA" 5 veces
+
+####Item c
+Porque mtcars es un dataframe y es una estructura bidimensional eso hace que 
+necesites especificar la columna o simplemente hacer notar la columna.
+
+####Item d
+Muestra por pantalla una tabla con columnas x , y donde x tiene como datos del 
+1 al 3 mientras que la comna y muestra las palabras "python","R"y "c++".Debe 
+funcionar con una cuestion logica de TRUE O FALSE.

@@ -1,0 +1,25 @@
+---
+title: "ejercicio 6"
+author: "Jesus Condor Torres"
+date: "24 de noviembre de 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+###Punto 1
+Es una tabla de 150 filas y 5 columnas donde cada columna es:
+* Sepal.Length
+* Sepal.Witdth
+* Petal.Length
+* Species
+
+###Punto 2
+```{r summary}
+#Suma del conjunto de datos
+summary(iris)
+```
+Da como informacion:
+* 

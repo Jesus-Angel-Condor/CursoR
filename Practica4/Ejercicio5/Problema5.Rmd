@@ -1,0 +1,28 @@
+---
+title: "Problema 5"
+author: "Jesus Condor Torres"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+###Item a
+* **plot.new** prepara el paquete plot, muestra una imagen en blanco.
+* **plot.window** hace reconocer las variables del grafico
+* **box**, **axis** y **points** muestra los puntos de dispersion y su rango
+* **mtext** se enncarga de poner los nombres en el grafico
+```{r graphics}
+plot.new()
+plot.window(range(pressure$temperature),
+            range(pressure$temperature))
+box()
+axis(1)
+axis(2)
+points(pressure$temperature, pressure$pressure)
+mtext("temperatura",side = 1,line = 3)
+mtext("presion",side = 2,line = 3)
+mtext("Presion de vapor \ncomo una funcion de la temperatura ",side = 3, line = 1,
+      font = 2)
+```
